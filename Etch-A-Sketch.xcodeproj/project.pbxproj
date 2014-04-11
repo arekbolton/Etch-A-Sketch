@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EEA48518F82E3A003448E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48418F82E3A003448E4 /* Foundation.framework */; };
+		25EEA48718F82E3A003448E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48618F82E3A003448E4 /* CoreGraphics.framework */; };
+		25EEA48918F82E3A003448E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48818F82E3A003448E4 /* UIKit.framework */; };
+		25EEA48F18F82E3A003448E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA48D18F82E3A003448E4 /* InfoPlist.strings */; };
+		25EEA49118F82E3A003448E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EEA49018F82E3A003448E4 /* main.m */; };
+		25EEA49518F82E3A003448E4 /* EASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EEA49418F82E3A003448E4 /* EASAppDelegate.m */; };
+		25EEA49818F82E3A003448E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA49618F82E3A003448E4 /* Main.storyboard */; };
+		25EEA49B18F82E3A003448E4 /* EASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EEA49A18F82E3A003448E4 /* EASViewController.m */; };
+		25EEA49D18F82E3A003448E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA49C18F82E3A003448E4 /* Images.xcassets */; };
+		25EEA4A418F82E3B003448E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA4A318F82E3B003448E4 /* XCTest.framework */; };
+		25EEA4A518F82E3B003448E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48418F82E3A003448E4 /* Foundation.framework */; };
+		25EEA4A618F82E3B003448E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48818F82E3A003448E4 /* UIKit.framework */; };
+		25EEA4AE18F82E3B003448E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA4AC18F82E3B003448E4 /* InfoPlist.strings */; };
+		25EEA4B018F82E3B003448E4 /* Etch_A_SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EEA4AF18F82E3B003448E4 /* Etch_A_SketchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25EEA4A718F82E3B003448E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25EEA47918F82E3A003448E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EEA48018F82E3A003448E4;
+			remoteInfo = "Etch-A-Sketch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25EEA48118F82E3A003448E4 /* Etch-A-Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Etch-A-Sketch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EEA48418F82E3A003448E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25EEA48618F82E3A003448E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25EEA48818F82E3A003448E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25EEA48C18F82E3A003448E4 /* Etch-A-Sketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Etch-A-Sketch-Info.plist"; sourceTree = "<group>"; };
+		25EEA48E18F82E3A003448E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25EEA49018F82E3A003448E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EEA49218F82E3A003448E4 /* Etch-A-Sketch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Etch-A-Sketch-Prefix.pch"; sourceTree = "<group>"; };
+		25EEA49318F82E3A003448E4 /* EASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EASAppDelegate.h; sourceTree = "<group>"; };
+		25EEA49418F82E3A003448E4 /* EASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EASAppDelegate.m; sourceTree = "<group>"; };
+		25EEA49718F82E3A003448E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25EEA49918F82E3A003448E4 /* EASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EASViewController.h; sourceTree = "<group>"; };
+		25EEA49A18F82E3A003448E4 /* EASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EASViewController.m; sourceTree = "<group>"; };
+		25EEA49C18F82E3A003448E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25EEA4A218F82E3B003448E4 /* Etch-A-SketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Etch-A-SketchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EEA4A318F82E3B003448E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25EEA4AB18F82E3B003448E4 /* Etch-A-SketchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Etch-A-SketchTests-Info.plist"; sourceTree = "<group>"; };
+		25EEA4AD18F82E3B003448E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25EEA4AF18F82E3B003448E4 /* Etch_A_SketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Etch_A_SketchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EEA47E18F82E3A003448E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA48718F82E3A003448E4 /* CoreGraphics.framework in Frameworks */,
+				25EEA48918F82E3A003448E4 /* UIKit.framework in Frameworks */,
+				25EEA48518F82E3A003448E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EEA49F18F82E3B003448E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA4A418F82E3B003448E4 /* XCTest.framework in Frameworks */,
+				25EEA4A618F82E3B003448E4 /* UIKit.framework in Frameworks */,
+				25EEA4A518F82E3B003448E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EEA47818F82E3A003448E4 = {
+			isa = PBXGroup;
+			children = (
+				25EEA48A18F82E3A003448E4 /* Etch-A-Sketch */,
+				25EEA4A918F82E3B003448E4 /* Etch-A-SketchTests */,
+				25EEA48318F82E3A003448E4 /* Frameworks */,
+				25EEA48218F82E3A003448E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EEA48218F82E3A003448E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA48118F82E3A003448E4 /* Etch-A-Sketch.app */,
+				25EEA4A218F82E3B003448E4 /* Etch-A-SketchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EEA48318F82E3A003448E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA48418F82E3A003448E4 /* Foundation.framework */,
+				25EEA48618F82E3A003448E4 /* CoreGraphics.framework */,
+				25EEA48818F82E3A003448E4 /* UIKit.framework */,
+				25EEA4A318F82E3B003448E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25EEA48A18F82E3A003448E4 /* Etch-A-Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA49318F82E3A003448E4 /* EASAppDelegate.h */,
+				25EEA49418F82E3A003448E4 /* EASAppDelegate.m */,
+				25EEA49618F82E3A003448E4 /* Main.storyboard */,
+				25EEA49918F82E3A003448E4 /* EASViewController.h */,
+				25EEA49A18F82E3A003448E4 /* EASViewController.m */,
+				25EEA49C18F82E3A003448E4 /* Images.xcassets */,
+				25EEA48B18F82E3A003448E4 /* Supporting Files */,
+			);
+			path = "Etch-A-Sketch";
+			sourceTree = "<group>";
+		};
+		25EEA48B18F82E3A003448E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA48C18F82E3A003448E4 /* Etch-A-Sketch-Info.plist */,
+				25EEA48D18F82E3A003448E4 /* InfoPlist.strings */,
+				25EEA49018F82E3A003448E4 /* main.m */,
+				25EEA49218F82E3A003448E4 /* Etch-A-Sketch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25EEA4A918F82E3B003448E4 /* Etch-A-SketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA4AF18F82E3B003448E4 /* Etch_A_SketchTests.m */,
+				25EEA4AA18F82E3B003448E4 /* Supporting Files */,
+			);
+			path = "Etch-A-SketchTests";
+			sourceTree = "<group>";
+		};
+		25EEA4AA18F82E3B003448E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EEA4AB18F82E3B003448E4 /* Etch-A-SketchTests-Info.plist */,
+				25EEA4AC18F82E3B003448E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EEA48018F82E3A003448E4 /* Etch-A-Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EEA4B318F82E3B003448E4 /* Build configuration list for PBXNativeTarget "Etch-A-Sketch" */;
+			buildPhases = (
+				25EEA47D18F82E3A003448E4 /* Sources */,
+				25EEA47E18F82E3A003448E4 /* Frameworks */,
+				25EEA47F18F82E3A003448E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Etch-A-Sketch";
+			productName = "Etch-A-Sketch";
+			productReference = 25EEA48118F82E3A003448E4 /* Etch-A-Sketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25EEA4A118F82E3B003448E4 /* Etch-A-SketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EEA4B618F82E3B003448E4 /* Build configuration list for PBXNativeTarget "Etch-A-SketchTests" */;
+			buildPhases = (
+				25EEA49E18F82E3B003448E4 /* Sources */,
+				25EEA49F18F82E3B003448E4 /* Frameworks */,
+				25EEA4A018F82E3B003448E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EEA4A818F82E3B003448E4 /* PBXTargetDependency */,
+			);
+			name = "Etch-A-SketchTests";
+			productName = "Etch-A-SketchTests";
+			productReference = 25EEA4A218F82E3B003448E4 /* Etch-A-SketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EEA47918F82E3A003448E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EAS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Arek Bolton";
+				TargetAttributes = {
+					25EEA4A118F82E3B003448E4 = {
+						TestTargetID = 25EEA48018F82E3A003448E4;
+					};
+				};
+			};
+			buildConfigurationList = 25EEA47C18F82E3A003448E4 /* Build configuration list for PBXProject "Etch-A-Sketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EEA47818F82E3A003448E4;
+			productRefGroup = 25EEA48218F82E3A003448E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EEA48018F82E3A003448E4 /* Etch-A-Sketch */,
+				25EEA4A118F82E3B003448E4 /* Etch-A-SketchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EEA47F18F82E3A003448E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA49D18F82E3A003448E4 /* Images.xcassets in Resources */,
+				25EEA48F18F82E3A003448E4 /* InfoPlist.strings in Resources */,
+				25EEA49818F82E3A003448E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EEA4A018F82E3B003448E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA4AE18F82E3B003448E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EEA47D18F82E3A003448E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA49518F82E3A003448E4 /* EASAppDelegate.m in Sources */,
+				25EEA49B18F82E3A003448E4 /* EASViewController.m in Sources */,
+				25EEA49118F82E3A003448E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EEA49E18F82E3B003448E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA4B018F82E3B003448E4 /* Etch_A_SketchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25EEA4A818F82E3B003448E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25EEA48018F82E3A003448E4 /* Etch-A-Sketch */;
+			targetProxy = 25EEA4A718F82E3B003448E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25EEA48D18F82E3A003448E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EEA48E18F82E3A003448E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25EEA49618F82E3A003448E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EEA49718F82E3A003448E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25EEA4AC18F82E3B003448E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EEA4AD18F82E3B003448E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EEA4B118F82E3B003448E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25EEA4B218F82E3B003448E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EEA4B418F82E3B003448E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch-A-Sketch/Etch-A-Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Etch-A-Sketch/Etch-A-Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25EEA4B518F82E3B003448E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch-A-Sketch/Etch-A-Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Etch-A-Sketch/Etch-A-Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25EEA4B718F82E3B003448E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Etch-A-Sketch.app/Etch-A-Sketch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch-A-Sketch/Etch-A-Sketch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Etch-A-SketchTests/Etch-A-SketchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25EEA4B818F82E3B003448E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Etch-A-Sketch.app/Etch-A-Sketch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Etch-A-Sketch/Etch-A-Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Etch-A-SketchTests/Etch-A-SketchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EEA47C18F82E3A003448E4 /* Build configuration list for PBXProject "Etch-A-Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EEA4B118F82E3B003448E4 /* Debug */,
+				25EEA4B218F82E3B003448E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EEA4B318F82E3B003448E4 /* Build configuration list for PBXNativeTarget "Etch-A-Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EEA4B418F82E3B003448E4 /* Debug */,
+				25EEA4B518F82E3B003448E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25EEA4B618F82E3B003448E4 /* Build configuration list for PBXNativeTarget "Etch-A-SketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EEA4B718F82E3B003448E4 /* Debug */,
+				25EEA4B818F82E3B003448E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EEA47918F82E3A003448E4 /* Project object */;
+}
