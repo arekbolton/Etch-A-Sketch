@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A7587A191813EA00167909 /* EASView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A75879191813EA00167909 /* EASView.m */; };
 		25EEA48518F82E3A003448E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48418F82E3A003448E4 /* Foundation.framework */; };
 		25EEA48718F82E3A003448E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48618F82E3A003448E4 /* CoreGraphics.framework */; };
 		25EEA48918F82E3A003448E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48818F82E3A003448E4 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		25EEA4A618F82E3B003448E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEA48818F82E3A003448E4 /* UIKit.framework */; };
 		25EEA4AE18F82E3B003448E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA4AC18F82E3B003448E4 /* InfoPlist.strings */; };
 		25EEA4B018F82E3B003448E4 /* Etch_A_SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EEA4AF18F82E3B003448E4 /* Etch_A_SketchTests.m */; };
+		25EEA4BA18F8380F003448E4 /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EEA4B918F8380F003448E4 /* redframe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25A75878191813EA00167909 /* EASView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASView.h; sourceTree = "<group>"; };
+		25A75879191813EA00167909 /* EASView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASView.m; sourceTree = "<group>"; };
 		25EEA48118F82E3A003448E4 /* Etch-A-Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Etch-A-Sketch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EEA48418F82E3A003448E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25EEA48618F82E3A003448E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		25EEA4AB18F82E3B003448E4 /* Etch-A-SketchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Etch-A-SketchTests-Info.plist"; sourceTree = "<group>"; };
 		25EEA4AD18F82E3B003448E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25EEA4AF18F82E3B003448E4 /* Etch_A_SketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Etch_A_SketchTests.m; sourceTree = "<group>"; };
+		25EEA4B918F8380F003448E4 /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				25EEA49618F82E3A003448E4 /* Main.storyboard */,
 				25EEA49918F82E3A003448E4 /* EASViewController.h */,
 				25EEA49A18F82E3A003448E4 /* EASViewController.m */,
+				25A75878191813EA00167909 /* EASView.h */,
+				25A75879191813EA00167909 /* EASView.m */,
+				25EEA4B918F8380F003448E4 /* redframe.png */,
 				25EEA49C18F82E3A003448E4 /* Images.xcassets */,
 				25EEA48B18F82E3A003448E4 /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EEA49D18F82E3A003448E4 /* Images.xcassets in Resources */,
+				25EEA4BA18F8380F003448E4 /* redframe.png in Resources */,
 				25EEA48F18F82E3A003448E4 /* InfoPlist.strings in Resources */,
 				25EEA49818F82E3A003448E4 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A7587A191813EA00167909 /* EASView.m in Sources */,
 				25EEA49518F82E3A003448E4 /* EASAppDelegate.m in Sources */,
 				25EEA49B18F82E3A003448E4 /* EASViewController.m in Sources */,
 				25EEA49118F82E3A003448E4 /* main.m in Sources */,
@@ -457,6 +467,7 @@
 				25EEA4B518F82E3B003448E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25EEA4B618F82E3B003448E4 /* Build configuration list for PBXNativeTarget "Etch-A-SketchTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				25EEA4B818F82E3B003448E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

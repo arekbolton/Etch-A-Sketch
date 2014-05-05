@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EASView.h"
 
-@interface EASViewController : UIViewController
+@interface EASViewController : UIViewController {
+    CGFloat lastVelocity;
+}
+
+@property (nonatomic, weak) IBOutlet EASView *esView;
+
+- (IBAction)addVertical:(id)sender;
+
+- (IBAction)addHorrizontal:(id)sender;
 
 @end
